@@ -1,0 +1,306 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7240338746254522693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6197784c03daa83488e9e474cf4651f7, type: 3}
+  m_Name: Final Message
+  m_EditorClassIdentifier: 
+  nodeName: Final Message
+  state: 0
+  isStarted: 0
+  children: []
+  index: 0
+  position: {x: 1147.0557, y: 549.4374}
+  GUID: 1b64099c25730c445a4aaeb8e64883a7
+  blackboard:
+    message: 
+  message: Tree Completed!
+--- !u!114 &-5332494086156239883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9cf4cdf8610894c9f2835f79c69a7a, type: 3}
+  m_Name: Print Sequence
+  m_EditorClassIdentifier: 
+  nodeName: Print Sequence
+  state: 0
+  isStarted: 0
+  children:
+  - {fileID: 3544118424257255866}
+  - {fileID: 8095800195424064508}
+  - {fileID: -2588670264420799646}
+  index: 0
+  position: {x: 338, y: 394.72}
+  GUID: 34425a6a2c919c342b6b09ec34c7ecab
+  blackboard:
+    message: 
+  sequenceType: 0
+--- !u!114 &-3552143683767754726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6197784c03daa83488e9e474cf4651f7, type: 3}
+  m_Name: Condition Check
+  m_EditorClassIdentifier: 
+  nodeName: Condition Check
+  state: 0
+  isStarted: 0
+  children: []
+  index: 0
+  position: {x: 727.07745, y: 661.4525}
+  GUID: 38bfdcd8e08f46b47bd27240e147098f
+  blackboard:
+    message: 
+  message: 
+--- !u!114 &-2588670264420799646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6197784c03daa83488e9e474cf4651f7, type: 3}
+  m_Name: Third Message
+  m_EditorClassIdentifier: 
+  nodeName: Third Message
+  state: 0
+  isStarted: 0
+  children: []
+  index: 0
+  position: {x: 493, y: 548}
+  GUID: aed9a969ab472c048a8f96d1391203f9
+  blackboard:
+    message: 
+  message: Third
+--- !u!114 &-1928638773102487948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9cf4cdf8610894c9f2835f79c69a7a, type: 3}
+  m_Name: Condition
+  m_EditorClassIdentifier: 
+  nodeName: Condition
+  state: 0
+  isStarted: 0
+  children:
+  - {fileID: -3552143683767754726}
+  - {fileID: -509189491474714278}
+  index: 0
+  position: {x: 796.91656, y: 396.39365}
+  GUID: e0768d39cd125b64a8eb6ab6b2432962
+  blackboard:
+    message: 
+  sequenceType: 0
+--- !u!114 &-1158403582686819521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a261bda221623440bf62f2a46d4bd4a, type: 3}
+  m_Name: 'Wait '
+  m_EditorClassIdentifier: 
+  nodeName: 'Wait '
+  state: 0
+  isStarted: 0
+  children:
+  - {fileID: -7240338746254522693}
+  index: 0
+  position: {x: 1100.4293, y: 396.3122}
+  GUID: ee8001f1b4826004f806eb2be7802b89
+  blackboard:
+    message: 
+  delay: 5
+--- !u!114 &-582758450853473386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a261bda221623440bf62f2a46d4bd4a, type: 3}
+  m_Name: Wait Before Start
+  m_EditorClassIdentifier: 
+  nodeName: Wait Before Start
+  state: 0
+  isStarted: 0
+  children:
+  - {fileID: 6779043021720813391}
+  index: 0
+  position: {x: 517, y: 79}
+  GUID: 7d80374bf8974a74194c4b9ea3dc947b
+  blackboard:
+    message: 
+  delay: 10
+--- !u!114 &-509189491474714278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6197784c03daa83488e9e474cf4651f7, type: 3}
+  m_Name: Output
+  m_EditorClassIdentifier: 
+  nodeName: Output
+  state: 0
+  isStarted: 0
+  children: []
+  index: 0
+  position: {x: 915.23004, y: 662.7425}
+  GUID: a0fc122b416b5b044b560b69e557c1a6
+  blackboard:
+    message: 
+  message: Outputing
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28991300a88d0184da1fb38cce70441a, type: 3}
+  m_Name: Example Tree
+  m_EditorClassIdentifier: 
+  root: {fileID: 5156813009887354823}
+  treeState: 0
+  blackboard:
+    message: 
+  nodes:
+  - {fileID: 5156813009887354823}
+  - {fileID: -582758450853473386}
+  - {fileID: -5332494086156239883}
+  - {fileID: 3544118424257255866}
+  - {fileID: 8095800195424064508}
+  - {fileID: -2588670264420799646}
+  - {fileID: -1158403582686819521}
+  - {fileID: 6779043021720813391}
+  - {fileID: -7240338746254522693}
+  - {fileID: -1928638773102487948}
+  - {fileID: -509189491474714278}
+  - {fileID: -3552143683767754726}
+--- !u!114 &3544118424257255866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6197784c03daa83488e9e474cf4651f7, type: 3}
+  m_Name: First Message
+  m_EditorClassIdentifier: 
+  nodeName: First Message
+  state: 0
+  isStarted: 0
+  children: []
+  index: 0
+  position: {x: 101, y: 543}
+  GUID: 571457e7ab0076c429006afb7f20e37d
+  blackboard:
+    message: 
+  message: First
+--- !u!114 &5156813009887354823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18290c4405c8e4543bc92698cc77755d, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  nodeName: 
+  state: 0
+  isStarted: 0
+  children:
+  - {fileID: -582758450853473386}
+  index: 0
+  position: {x: 517, y: -42}
+  GUID: bc9783afc08988e4e99b66229fd445f3
+  blackboard:
+    message: 
+  newBlackboardEveryTime: 1
+--- !u!114 &6779043021720813391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9cf4cdf8610894c9f2835f79c69a7a, type: 3}
+  m_Name: Main Sequence
+  m_EditorClassIdentifier: 
+  nodeName: Main Sequence
+  state: 0
+  isStarted: 0
+  children:
+  - {fileID: -5332494086156239883}
+  - {fileID: -1928638773102487948}
+  - {fileID: -1158403582686819521}
+  index: 0
+  position: {x: 518, y: 204}
+  GUID: cb9004e6e49663d4284a9d6fcd487280
+  blackboard:
+    message: 
+  sequenceType: 0
+--- !u!114 &8095800195424064508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6197784c03daa83488e9e474cf4651f7, type: 3}
+  m_Name: Second Message
+  m_EditorClassIdentifier: 
+  nodeName: Second Message
+  state: 0
+  isStarted: 0
+  children: []
+  index: 0
+  position: {x: 299.76, y: 546}
+  GUID: 181d28a4be025bf41acfd14e3ec8dbfa
+  blackboard:
+    message: 
+  message: Second

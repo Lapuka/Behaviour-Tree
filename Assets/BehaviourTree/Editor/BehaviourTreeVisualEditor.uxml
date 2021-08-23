@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="Window" style="flex-grow: 1;">
+        <SplitView fixed-pane-initial-dimension="1600">
+            <SplitView fixed-pane-initial-dimension="300">
+                <ui:VisualElement name="left-panel">
+                    <ui:Label text="Node View" display-tooltip-when-elided="true" style="background-color: rgb(32, 32, 32);" />
+                    <NodeInspector style="flex-grow: 1;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="right-panel">
+                    <ui:Label text="Node Graph View" display-tooltip-when-elided="true" style="background-color: rgb(32, 32, 32);" />
+                    <TreeGraphView focusable="true" fixed-pane-initial-dimension="1135" style="flex-grow: 1;" />
+                </ui:VisualElement>
+            </SplitView>
+            <ui:VisualElement name="Blackboard">
+                <ui:Label text="Blackboard View" display-tooltip-when-elided="true" style="background-color: rgb(32, 32, 32);" />
+                <ui:IMGUIContainer style="flex-grow: 1;" />
+            </ui:VisualElement>
+        </SplitView>
+    </ui:VisualElement>
+</ui:UXML>

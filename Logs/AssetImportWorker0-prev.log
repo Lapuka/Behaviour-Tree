@@ -1,0 +1,525 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19042.746; Version 2009; 64bit' Language: 'en' Physical Memory: 8145 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Data/Game Development/Behaviour Tree
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53365
+Successfully changed project path to: C:/Data/Game Development/Behaviour Tree
+C:/Data/Game Development/Behaviour Tree
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 49.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Data/Game Development/Behaviour Tree/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   
+    VRAM:     8088 MB
+    Driver:   27.21.14.6647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005248 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 56.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.210 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001784 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.409 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1313 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.2 MB.
+System memory in use after: 64.3 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1757.
+Total: 2.590700 ms (FindLiveObjects: 0.170700 ms CreateObjectMapping: 0.057600 ms MarkObjects: 2.268700 ms  DeleteObjects: 0.092700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117906bb727633dfbf611fb48586ada7') in 0.021933 seconds
+  Import took 0.027336 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001337 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.314 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.2 MB.
+System memory in use after: 64.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1760.
+Total: 2.155500 ms (FindLiveObjects: 0.171000 ms CreateObjectMapping: 0.055300 ms MarkObjects: 1.874700 ms  DeleteObjects: 0.053400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001356 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.314 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.2 MB.
+System memory in use after: 64.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1763.
+Total: 2.676500 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.096100 ms MarkObjects: 2.261600 ms  DeleteObjects: 0.061000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001400 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.321 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.2 MB.
+System memory in use after: 64.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1766.
+Total: 2.390200 ms (FindLiveObjects: 0.150000 ms CreateObjectMapping: 0.052200 ms MarkObjects: 2.126800 ms  DeleteObjects: 0.060200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001390 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.376 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.2 MB.
+System memory in use after: 64.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1769.
+Total: 2.740300 ms (FindLiveObjects: 0.201300 ms CreateObjectMapping: 0.059900 ms MarkObjects: 2.388700 ms  DeleteObjects: 0.088500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001451 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.241 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.2 MB.
+System memory in use after: 64.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1772.
+Total: 2.237200 ms (FindLiveObjects: 0.168200 ms CreateObjectMapping: 0.057200 ms MarkObjects: 1.954800 ms  DeleteObjects: 0.056000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4200.110711 seconds.
+  path: Assets/BehaviourTree/Example
+  artifactKey: Guid(15748a02a90ffdf4c837ccd678037aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example using Guid(15748a02a90ffdf4c837ccd678037aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29eef81077a365dc150046d5aa568e98') in 0.014897 seconds
+  Import took 0.020112 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001336 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.467 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.2 MB.
+System memory in use after: 64.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1775.
+Total: 2.263100 ms (FindLiveObjects: 0.195800 ms CreateObjectMapping: 0.066300 ms MarkObjects: 1.940000 ms  DeleteObjects: 0.059400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.931672 seconds.
+  path: Assets/BehaviourTree/Example/Costom Nodes
+  artifactKey: Guid(225543e0ebb8d82408fac37a71ce72a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Costom Nodes using Guid(225543e0ebb8d82408fac37a71ce72a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0493be4f76f1de046eb00b4e9dbaded5') in 0.009542 seconds
+  Import took 0.014436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.695026 seconds.
+  path: Assets/BehaviourTree/Example/DebugLogMessage.cs
+  artifactKey: Guid(6197784c03daa83488e9e474cf4651f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/DebugLogMessage.cs using Guid(6197784c03daa83488e9e474cf4651f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ac658e0edfc610c87738ab52585b69') in 0.070553 seconds
+  Import took 0.074627 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001373 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.328 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.3 MB.
+System memory in use after: 64.3 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1778.
+Total: 4.948100 ms (FindLiveObjects: 0.215300 ms CreateObjectMapping: 0.297300 ms MarkObjects: 4.166800 ms  DeleteObjects: 0.266600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.147250 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree.asset
+  artifactKey: Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree.asset using Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce0f8ab19fff84bc0e49c65d31ab55f') in 0.027063 seconds
+  Import took 0.030635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.123976 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree.asset
+  artifactKey: Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree.asset using Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce0f8ab19fff84bc0e49c65d31ab55f') in 0.004978 seconds
+  Import took 0.009023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.507225 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree Object.prefab
+  artifactKey: Guid(b63b97cd6909aa94fa416f2e790a1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree Object.prefab using Guid(b63b97cd6909aa94fa416f2e790a1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c90db29d7801b7d702ae2a31de96853') in 0.031637 seconds
+  Import took 0.034607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.545640 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree Object.prefab
+  artifactKey: Guid(b63b97cd6909aa94fa416f2e790a1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree Object.prefab using Guid(b63b97cd6909aa94fa416f2e790a1ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a213874289af0eb9dc1027a472317c1') in 0.008315 seconds
+  Import took 0.012382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.808957 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree.asset
+  artifactKey: Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree.asset using Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dc96b9020852b3eff4e88721af57ddb') in 0.016525 seconds
+  Import took 0.021236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.092239 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree.asset
+  artifactKey: Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree.asset using Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1771d0ba37688ad792b25279cc2598') in 0.007626 seconds
+  Import took 0.012476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.241031 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree.asset
+  artifactKey: Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree.asset using Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06bcf4fe266e0f9f0bdfc9efc3aecde') in 0.008121 seconds
+  Import took 0.012635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.939683 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree.asset
+  artifactKey: Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree.asset using Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c46de9d64a626aefd67fe6fb39cadff') in 0.009122 seconds
+  Import took 0.013541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.592025 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree.asset
+  artifactKey: Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree.asset using Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417b115fb74401c3e33d7ef9d4e15767') in 0.008441 seconds
+  Import took 0.012830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.128403 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree.asset
+  artifactKey: Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree.asset using Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe5886eea59e5de99f21aab89359da1') in 0.008975 seconds
+  Import took 0.014339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.180793 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree.asset
+  artifactKey: Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree.asset using Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bbb1dbf89d7f112d2032c87fe41bc6') in 0.006138 seconds
+  Import took 0.010724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.441220 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree.asset
+  artifactKey: Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree.asset using Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b161046eaf05ddfc73cc47c6cb9c2b0b') in 0.008522 seconds
+  Import took 0.013440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.722466 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree.asset
+  artifactKey: Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree.asset using Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813c8b0050a1510aee6f4cc351eea128') in 0.008748 seconds
+  Import took 0.014072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.493261 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree.asset
+  artifactKey: Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree.asset using Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8f1c0d03bcf79ae34d31246342975f') in 0.008920 seconds
+  Import took 0.013059 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001378 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.3 MB.
+System memory in use after: 64.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1781.
+Total: 2.751900 ms (FindLiveObjects: 0.187500 ms CreateObjectMapping: 0.054600 ms MarkObjects: 2.442800 ms  DeleteObjects: 0.065300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.342058 seconds.
+  path: Assets/BehaviourTree/Example/Costom Nodes/DebugLogMessage.cs
+  artifactKey: Guid(6197784c03daa83488e9e474cf4651f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Costom Nodes/DebugLogMessage.cs using Guid(6197784c03daa83488e9e474cf4651f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29392ed0de760c78d24dab750875e88') in 0.007810 seconds
+  Import took 0.011787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.023825 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree.asset
+  artifactKey: Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree.asset using Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39090a321e111a018c3b0b628990e923') in 0.019906 seconds
+  Import took 0.023333 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001505 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.167 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1308 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.3 MB.
+System memory in use after: 64.4 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1784.
+Total: 2.395600 ms (FindLiveObjects: 0.169900 ms CreateObjectMapping: 0.056600 ms MarkObjects: 2.107100 ms  DeleteObjects: 0.060100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.433953 seconds.
+  path: Assets/BehaviourTree/Example/Example Tree.asset
+  artifactKey: Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Example Tree.asset using Guid(6acc6cda33f19a449b2372d030c076f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54085c8fc23f406ebedc94485ba34405') in 0.019781 seconds
+  Import took 0.023399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 148.239467 seconds.
+  path: Assets/BehaviourTree/Editor/NodeViewStyle.uss
+  artifactKey: Guid(e60f78dfb7757ec4ab1a479d055bc0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Editor/NodeViewStyle.uss using Guid(e60f78dfb7757ec4ab1a479d055bc0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2b0979fa6dcffd33c0b5f9ab0c07e2') in 0.019557 seconds
+  Import took 0.023100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007947 seconds.
+  path: Assets/BehaviourTree/Node.cs
+  artifactKey: Guid(7c7c3b149c6b63e498b6a814a28c6875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Node.cs using Guid(7c7c3b149c6b63e498b6a814a28c6875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e500b8e57a7d026aebd77e7da0d82640') in 0.003490 seconds
+  Import took 0.006369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004778 seconds.
+  path: Assets/BehaviourTree/BehaviourTree.cs
+  artifactKey: Guid(28991300a88d0184da1fb38cce70441a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/BehaviourTree.cs using Guid(28991300a88d0184da1fb38cce70441a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1528175b7816b715d4c8bda8e4b24837') in 0.003399 seconds
+  Import took 0.006907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005735 seconds.
+  path: Assets/BehaviourTree/Editor/NodeView.uxml
+  artifactKey: Guid(1e0f0a88f727cee409272f4f14d388bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Editor/NodeView.uxml using Guid(1e0f0a88f727cee409272f4f14d388bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c355e28cd4fdee77fb5ec06a02ef37bc') in 0.015503 seconds
+  Import took 0.019783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018057 seconds.
+  path: Assets/BehaviourTree/Blackboard.cs
+  artifactKey: Guid(e8b30452e33fae54f9b697da546601c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Blackboard.cs using Guid(e8b30452e33fae54f9b697da546601c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa32c8019f9b405e971130f713e18eb') in 0.003655 seconds
+  Import took 0.007324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005852 seconds.
+  path: Assets/BehaviourTree/Editor/BehaviourTreeVisualEditor.uxml
+  artifactKey: Guid(2827fdcdb0d1d504c99a3a7f5396c1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Editor/BehaviourTreeVisualEditor.uxml using Guid(2827fdcdb0d1d504c99a3a7f5396c1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92c7a3804834378ae197d676a08c3395') in 0.004824 seconds
+  Import took 0.007873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004414 seconds.
+  path: Assets/BehaviourTree/Editor/Scripts/NodeView.cs
+  artifactKey: Guid(5d4d27c73b50c2b4897945496e27604d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Editor/Scripts/NodeView.cs using Guid(5d4d27c73b50c2b4897945496e27604d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4258231714ab58ccaf72b1024fa9ba7') in 0.003345 seconds
+  Import took 0.007052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013889 seconds.
+  path: Assets/BehaviourTree/NodePort.cs
+  artifactKey: Guid(a3f1616233514e84e87132d28739d914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/NodePort.cs using Guid(a3f1616233514e84e87132d28739d914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1031238e25992b952956fa3dd367472') in 0.003164 seconds
+  Import took 0.005881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004977 seconds.
+  path: Assets/BehaviourTree/Editor/Scripts/TreeGraphView.cs
+  artifactKey: Guid(21a5fe9c41c09664eaf68b4da5383e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Editor/Scripts/TreeGraphView.cs using Guid(21a5fe9c41c09664eaf68b4da5383e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f384560a652b416782184b1820ee7113') in 0.004326 seconds
+  Import took 0.008096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031600 seconds.
+  path: Assets/BehaviourTree/Example/Costom Nodes/RootNode.cs
+  artifactKey: Guid(18290c4405c8e4543bc92698cc77755d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Example/Costom Nodes/RootNode.cs using Guid(18290c4405c8e4543bc92698cc77755d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffe8951e8c219471f81eca4c35a49f7') in 0.004720 seconds
+  Import took 0.008644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012513 seconds.
+  path: Assets/BehaviourTree/Editor/Scripts/NodeInspector.cs
+  artifactKey: Guid(a692f32dde9d73144843654a7aca6204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Editor/Scripts/NodeInspector.cs using Guid(a692f32dde9d73144843654a7aca6204) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13fcc64fd2590f9d7e9188e632e98a64') in 0.003375 seconds
+  Import took 0.006598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004607 seconds.
+  path: Assets/BehaviourTree/Editor/Scripts/BehaviourTreeVisualEditor.cs
+  artifactKey: Guid(55f122560fdf7bc48a812d8ff8fe490c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BehaviourTree/Editor/Scripts/BehaviourTreeVisualEditor.cs using Guid(55f122560fdf7bc48a812d8ff8fe490c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c243d0a0ff70e3327c16399967619ba1') in 0.003243 seconds
+  Import took 0.006319 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
